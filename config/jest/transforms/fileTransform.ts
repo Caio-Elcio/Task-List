@@ -34,7 +34,6 @@ module.exports = {
         }),
       };`;
     }
-
     return `module.exports = ${assetFilename};`;
   },
 };

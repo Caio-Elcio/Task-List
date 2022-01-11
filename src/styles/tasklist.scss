@@ -1,10 +1,8 @@
 section.task-list {
   background: var(--shapes);
   border-radius: 1rem;
-  
   margin-top: -10rem;
   padding: 70px 60px;
-  
   filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.06));
   
   header {
@@ -22,7 +20,6 @@ section.task-list {
       display: flex;
       gap: 0.25rem;
       align-items: center;
-
       background: #fff;
       font-size: 16px;
       
@@ -32,9 +29,9 @@ section.task-list {
         border: 0;
         color: var(--text);
         padding: 12px 24px;
-        
         border-radius: 8px;
         border: 0;
+        outline: none;
         
         &::placeholder {
           color: var(--text-light)
@@ -50,10 +47,8 @@ section.task-list {
         display: flex;
         flex-direction: row;
         align-items: center;
-
         padding: 14px;
         transition: filter 0.2s;
-
         &:hover {
           filter: brightness(0.95);
         }
